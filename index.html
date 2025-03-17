@@ -8,40 +8,90 @@
 </head>
 
 <body>
+    
 
     <section class="section_hero">
         <header class="header">
             
             <div class="photo_image">
-                <p>Arthur primo</p>
+                <img  id='foto_perfil' src=".\img\foto perfil.jpg" width="60px" height="60px">
+                <h1>Arthur primo</h1>
             </div>
             
             <div class="link_nav">
-                <p> contatos </p>
-                <p> projetos </p>
-                <p> sobre </p>
+                <p> CONTATOS</p>
+                <a class="link_section_2" href="#section_2"> PROJETOS </a>
+                <p> SOBRE </p>
             
             </div>
         
         </header>
         
         <div class="content">
+            
             <div class="main">
                 <div class="block_contact">
-
+                  <a href='https://github.com/ArthurPB25'><img class='img_github_contact' src='.\img\github.png' width="60%" height="40%" style="vertical-align: middle;"></a>
+                  <a href="https://www.linkedin.com/in/arthur-primo-brand%C3%A3o-315913218/"><img class="img_linkedin_contact" src='.\img\linkedin.avif ' width="60%" height="50%" style="vertical-align: middle;"> </a>
+                  <a href ="https://www.youtube.com/@coding2go"><img class="img_youtube_contact" src=".\img\youtube.jpg" width="60%" height="50%" style="vertical-align: middle;"></a>
 
                 </div>
                 
                 <div class="main_text">
-                    <h1>PROJETOS - Portifólio</h1>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </P>
-                    <button>projects</button>
+                    <div class="container_content_perfil">
+
+                        <h1>Arthur Primo Brandão </h1>
+                        <p>Sou um desenvolvedor front-end apaixonado por criar interfaces web dinâmicas e responsivas. Com experiência em HTML, CSS, JavaScript e frameworks modernos , busco sempre combinar estética e funcionalidade, oferecendo uma experiência de usuário fluida e envolvente. 
+                            Meu foco é transformar ideias em soluções visuais intuitivas e de alta performance.</p>
+                    </div>
+                    <div class="container_content_projetos">
+                        <h1>Lista de Projetos</h1><br>
+                        
+                        <ol>
+                            <li>Projeto com o uso de Java Script - <a href = "https://github.com/ArthurPB25/aula_JavaScript_Animais.git">Link para github</a></li>
+                            <li>Projeto com o uso de banco de dados - <a href ="https://github.com/ArthurPB25/projeto-final.git">Link para github</a></li>
+                            <li>Acessar git hub para mais Projetos -<a href="https://github.com/ArthurPB25">Clique Aqui</a></li>
+                            
+                        </ol>
+                    </div>
+                    <div class="container_content_contatos">
+                        <a href='https://github.com/ArthurPB25'><img id="github_main" src='.\img\github.png' width="10%" height="50%" >Github</a>
+                        <a href="https://www.linkedin.com/in/arthur-primo-brand%C3%A3o-315913218/"><img class="img_linkedin_contact" src='.\img\linkedin.avif ' width="10%" height="50%" >Linkedin </a>
+                        
+                    </div>
+                    <div class="container_button">
+                        <button class="btn_perfil">Perfil</button>
+                        <button class="btn_projetos">Projetos</button>
+                        <button class="btn_contatos">Contatos</button>
+                    </div>
+                
                 </div>
             </div>
 
         </div>
         
     </section>
+    <section id="section_2" class="section_projetos">
+        <header class="header_projetos">
+            <h1>PROJETOS</h1>
+        </header>
+        <div class="content_projetos">
+            
+            <div class="slide_projetos">
+                <div class="projeto">
+                    <img  class="raposa"src=".\img\Captura de tela 2025-03-17 103119.png" width="80%" height="80%">
+                    <p>No projeto acima utilizamos java script, css e html . Esta aplicação foi feita com a ajuda do professor para o aprendizado do uso do java script integrado com css e html</p>
+
+                </div>
+                <div class="projeto">
+                    <img class="raposa" src="img\episteme.jpg"width="80%" height="80%">
+                    <p> No projeto acima , observa-se uma aplicação que foi utilizado para avaliação do porjeto integrador onde utillizamos Banco de dados, este projeto tem o objetivo de auxiliar uma escola onde é necessário uma melhro organização das aulas</p>
+
+                </div>
+        </div>
+    </div>
+    </section>
+    <script src="script.js" defer></script>
     
 </body>
 </html>
