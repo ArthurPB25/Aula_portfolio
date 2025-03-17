@@ -6,46 +6,59 @@
 body,
 .section_hero{
     min-height: 100vh;
-    background-color:aliceblue
+    background-color:rgb(246, 246, 247)
 
 }
+
+  
 .section_hero{
     display: flex;
     flex-direction:column ;
 }
 .header{
-    flex:1.5;
-    border: 2px solid black;
+    flex:1;
+   
     display: flex;
     flex-wrap: nowrap ;
     align-items: center;
     justify-content: space-between;
     background-color: white;
+    box-shadow: 5px 10px rgb(243, 241, 241);;
     
 }
 .content{
     display: flex;
     flex:5;
-    border: 2px solid black;
+    
     flex-direction: column;
     justify-content:center ;
     align-items:flex-start ;
     flex-wrap: wrap;
+    background-image: url(fund.o.jpg);
     
 }
 
 .main{
     width:100%;
     height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
     
-    border: 2px solid black;
+    justify-content: space-between;
 }
 
 p{
     margin: 1%;
     padding:20px;
-    font-family:monospace;
+   
     font-weight: bold;
+
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    margin-left: 5%;
 }
 .link_nav{
     width:20%;
@@ -55,22 +68,157 @@ p{
     
 }
 .photo_image{
-    border: 2px solid black;
-    width: 10%;
+    display: flex;
+    align-items: center;
+    
+    width: 50%;
     height: 10vh;
     margin-left: 2%;
    
-}
+}   
 .main_text{
     width: 40%;
-    height: 10vh;
-    border: 2px solid black;
+    height: 40vh;
+    border: 1px solid #F7CF0E;
     display:flex;
     flex-wrap: wrap;
-    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right:30%;
+    flex-direction: column;
+    border-radius:5%;
+    box-shadow: 5px 10px rgb(241, 240, 240);
+    background-color: white;
+    
 }
 .block_contact{
-    border: 2px solid black;
-    width: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center ;
+    border: 1px solid #F7CF0E;
+    
+    width: 5vw;
     height:40vh;
+    border-top-right-radius:20px 20px ; 
+    border-bottom-right-radius:20px 20px;
+    gap:2px;
+    box-shadow: 5px 10px rgb(241, 240, 240);
+    background-color: white;
+    
+}
+
+.container_button{
+    display: flex;
+   width:  100%;
+   margin-top:5%;
+   justify-content: center;
+   gap: 2%
+
+}
+button{
+    background-color: #FBCF11;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: #F7CF0E;
+        transform: scale(1.1);
+}
+
+.img_github_contact{
+    border-radius: 50%;
+    gap:3px;
+    margin-top: 30%;
+   
+
+}
+.img_linkedin_contact{
+    border-radius: 50%;
+    gap:3px;
+
+}   
+
+img{
+    margin-left: 5%;
+    vertical-align: middle;
+}
+
+a{
+    margin: 0;
+    padding:0;
+    
+}
+
+#foto_perfil{
+    border-radius: 50%;
+   
+}
+
+.link_section_2,p,li{
+    font-family: Impact, fantasy;
+    font-weight: 100;
+    color:#F7CF0E;
+    text-decoration: none;
+}
+
+.container_content_contatos{
+    width: 100%;
+    height:50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#github_main{
+    border-radius: 50%;
+    margin-left: 30%;
+}
+
+
+.section_projetos{
+    margin-top: 10%;
+}
+    
+
+.content_projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide_projetos{
+    display: flex;
+    gap:20px;
+    width: 80vh;
+    height: 400px;
+    overflow-x:scroll;
+    scroll-snap-type: x proximity;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    
+}
+.projeto{
+    scroll-snap-align: center;
+    box-sizing: border-box;
+    padding:20px 30px;
+    flex-shrink: 0;
+    width: 80vh;
+    background-color: white;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.header_projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-bottom: 20px;
+    margin-left: -5%;
+}
+.raposa{
+    border-radius:14px;
 }
